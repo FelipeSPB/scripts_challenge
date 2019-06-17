@@ -16,7 +16,7 @@ lista_socios = [
             (9,19),
         ]
 
-def atualiza_socios(lista_socios, carteiras):
+def atualiza_socios(lista_socios):
     carteiras_output = []
     for lista in lista_socios:
         carteiras_output.append({'numero':lista[0],'ativo': True,'bilhete':lista[1]})
