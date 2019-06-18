@@ -34,4 +34,4 @@ def atualiza_socios(lista_socios):
         carteiras_nova.append({'numero':i[0],'ativo':i[1],'bilhete':i[2]})
     print(carteiras_nova)
     return carteiras_nova
-atualiza_socios([(1,16),(4,13),(5,15),(8,18),(9,19)])
+
