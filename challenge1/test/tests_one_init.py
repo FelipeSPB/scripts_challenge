@@ -1,4 +1,4 @@
-from challenge1.teste_one import *
+from challenge1.one import *
 import pytest
 
 def test_count_dictionary_1():
@@ -6,7 +6,6 @@ def test_count_dictionary_1():
 
 def test_count_dictionary_2():
     assert count_dictionary('bananada de goiaba') == {' ':2, 'a': 6, 'b':2, 'd':2,'e':1 ,'g':1 ,'i':1, 'n': 2, 'o': 1}
-
 
 def test_count_dictionary_3():
     assert count_dictionary('marmelada de banana') == {' ': 2, 'a': 6, 'b':1, 'd': 2, 'e': 2, 'l':1, 'm':2, 'n': 2, 'r': 1}

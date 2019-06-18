@@ -34,4 +34,3 @@ def atualiza_socios(lista_socios):
         carteiras_nova.append({'numero':i[0],'ativo':i[1],'bilhete':i[2]})
     print(carteiras_nova)
     return carteiras_nova
-
